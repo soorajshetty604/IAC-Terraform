@@ -38,7 +38,7 @@ resource "azurerm_resource_group" "resource_group" {
 
 variable "storage_account_number" {
   type = set(string)  
-  default = [ "storage1", "storage2", "storage3" ]
+  default = [ "storage1012", "storage2013", "storage3408" ]
 }
 
 resource "azurerm_storage_account" "storage_account" {
