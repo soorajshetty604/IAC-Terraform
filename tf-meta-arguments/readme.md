@@ -1,6 +1,6 @@
 terraform meta arguments
-depends_on (explicit dependency)
-count
-for_each
-provider
+depends_on (explicit dependency),
+count,
+for_each,
+provider,
 lifecycle
